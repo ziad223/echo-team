@@ -1,0 +1,29 @@
+.features{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+.feature{
+    background-color: #ccc;
+    width: 24%;
+    padding: 10px;
+    text-align: center;
+}
+.feature > * {
+    margin-bottom: 20px;
+}
+.feature-icon{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width : 480px){
+    .features{
+       flex-direction: column;
+    }
+    .feature{
+        width: 90%;
+    }
+
+}

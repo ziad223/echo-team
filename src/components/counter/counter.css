@@ -1,0 +1,21 @@
+.counter-content{
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.counter-content .number{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width : 480px){
+    .counter-content{
+    flex-direction: column;
+    gap: 30px;
+    }
+
+}
